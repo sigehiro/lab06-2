@@ -1,0 +1,55 @@
+ .title-img-cont p {
+     float: left;
+     margin-right: 1em;
+ }
+
+.town-hall-title{
+    padding-top: 1px;
+    text-align: center;
+}
+
+.town-hall-title h1{
+    color: orange;
+    text-shadow: 2px 2px 1px black;
+
+}
+
+.town-hall-text p {
+    font-weight: bold;
+    font-size: 22px;
+    font-style: italic;
+    padding-left: 11em;
+}
+
+.contents-guest li:nth-child(-n+2) a{
+    color: darkgrey;
+}
+
+.contents-guest li:nth-child(-n+2) a:hover{
+    color: green;
+}
+
+.contents-guest li:nth-child(-n+2) a:active{
+    color: black;
+}
+
+.contents-guest li:nth-child(n+3):nth-child(-n+6) a{
+    color: rgb(115, 12, 12);
+}
+
+.contents-guest li:nth-child(n+3):nth-child(-n+6) a:hover{
+    color: green;
+}
+
+.contents-guest li:nth-child(n+3):nth-child(-n+6) a:active{
+    color: black;
+}
+
+.gift-conts p:nth-child(2),
+.gift-conts p:nth-child(3){
+    text-indent:3em ;
+}
+
+footer{
+    text-align: right;
+}
